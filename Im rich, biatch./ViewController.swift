@@ -12,9 +12,11 @@ class ViewController: UIViewController {
     
     let chappelleImageArray = ["Ashy-Larry", "blackDude"]
     
+    //let chappelleSayingsArray = ["I'M RICH, BIATCH!", "I'M BROKE, NIGGA, I'M BROKE"]
+    
     var randomChappeleImage: Int = 0
     
-    //var randomChappelleSaying: String = "Give it to me, baby!"
+    //var randomChappelleSaying: String = ""
     
     func randomFaceAndMessage() {
         
@@ -23,10 +25,6 @@ class ViewController: UIViewController {
         viewImage.image = UIImage.init(named: chappelleImageArray[randomChappeleImage])
         
     }
-    
-    
-    
-    @IBOutlet weak var viewTitle: UILabel!
     
     @IBOutlet weak var viewImage: UIImageView!
     
